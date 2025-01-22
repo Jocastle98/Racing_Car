@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class RandomGas : MonoBehaviour
 {
-    public GameObject[] gass; // 장애물 배열
-    public float gasSpeed = 2f; // 장애물 이동 속도
+    public GameObject[] gass; 
+    public float gasSpeed = 2f; 
     
     public enum GAS_TYPE
     {
