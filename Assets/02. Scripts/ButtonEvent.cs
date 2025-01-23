@@ -28,6 +28,7 @@ public class ButtonEvent : MonoBehaviour
     }
     public void OnStart()
     {
+
         Time.timeScale = 1;
         startUI.SetActive(false);
     }
